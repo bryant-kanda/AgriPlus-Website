@@ -4,9 +4,15 @@ nav{background-color: black;
     color: white;
     margin: 5%;
     justify-content: space-around;}
-    button{background-color: orange;}
-    #Agri{font-size: larger;
+button{background-color: orange;
+    color: white;}
+#Agri{font-size: larger;
     font-weight: bold;
     font-family: Poppins;}
-    #log{float: right;}
-    button{text-align: end;}
+#log{float: right;}
+.part1{margin: 5%;
+    background-image: url('Assets/image\ 1.png'), url('Assets/image\ 2.png');
+    background-size: 150px;
+    width:  90%;
+    height: 30%;
+    }
