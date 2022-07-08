@@ -12,13 +12,20 @@ button{background-color: orange;
     font-weight: bold;
     font-family: Poppins;}
 #log{float: right;}
-.part1{margin: 5%;
-    background-image: url('Assets/image\ 1.png');
+.part1{margin-left: 5%;
+    background-image: url("/Assets/image 1.png");
     display: flex;}
  .part2{display: flex;
-        justify-content: space-around;
+    justify-content: space-around;
     font-weight: bold;
     max-width: 80%;
-    margin-left:auto;
+    margin-right:15%;
+    margin-left: 30%;
     border:groove;
+    border-color: white;
+    padding: 1%;
+    margin-top: -2%;
     }
+.part3{margin-left: 7%;
+    max-width: 60%;}
+#image3{float: right;}
