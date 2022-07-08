@@ -1,20 +1,20 @@
 nav{background-color: black;
+    padding: 2%;
     border: solid;
     display: flex;
     color: white;
     margin: 5%;
     justify-content: space-around;}
 button{background-color: orange;
+    font-size: larger;
     color: white;}
 #Agri{font-size: larger;
     font-weight: bold;
     font-family: Poppins;}
 #log{float: right;}
 .part1{margin: 5%;
-    background-image: url('Assets/image\ 1.png'), url('Assets/image\ 2.png');
-    background-size: 150px;
-    width:  90%;
-    height: 30%;}
+    background-image: url('Assets/image\ 1.png');
+    display: flex;}
  .part2{display: flex;
         justify-content: space-around;
     font-weight: bold;
