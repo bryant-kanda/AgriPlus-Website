@@ -14,5 +14,11 @@ button{background-color: orange;
     background-image: url('Assets/image\ 1.png'), url('Assets/image\ 2.png');
     background-size: 150px;
     width:  90%;
-    height: 30%;
+    height: 30%;}
+ .part2{display: flex;
+        justify-content: space-around;
+    font-weight: bold;
+    max-width: 80%;
+    margin-left:auto;
+    border:groove;
     }
