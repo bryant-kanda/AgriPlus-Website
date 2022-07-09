@@ -30,3 +30,9 @@ button{background-color: orange;
     max-width: 60%;}
 #image3{float: right;}
 .part4{text-align:center;}
+h5{font-weight: bold;}
+h4{font-weight: bold;}
+.part5{display: flex;
+    justify-content: space-around;
+    }
+.title{font-weight: bold;}
