@@ -44,9 +44,9 @@ margin-left: 5%;}
     text-align: right;
     margin-right: 10%;}
 .part8{display: flex;
- justify-content: space-around;
- margin-right:5%;
-margin-left: 5%;}
+    justify-content: space-around;
+    margin-right:5%;
+    margin-left: 5%;}
 .part9{text-align:center;
 color: white;
 background-color: black;}
@@ -56,3 +56,6 @@ justify-content: space-around;
 color: white;
 background-color: black;
 }
+.read{font-weight: bold;
+    text-align: right;
+    margin-right: 10%;}
