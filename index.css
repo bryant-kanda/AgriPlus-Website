@@ -44,3 +44,12 @@ margin-left: 5%;}
 .part8{display: flex;
  justify-content: space-around;
 }
+.part9{text-align:center;
+color: white;
+background-color: black;}
+.part10{
+display: flex;
+justify-content: space-around;
+color: white;
+background-color: black;
+}
