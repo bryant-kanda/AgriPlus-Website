@@ -41,7 +41,6 @@ justify-content: space-around;
 margin-right:5%;
 margin-left: 5%;}
 .see{margin-right: 5%;}
-
-.part8{display: flexbox;
-    justify-content: space-around;
+.part8{display: flex;
+ justify-content: space-around;
 }
