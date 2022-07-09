@@ -49,12 +49,16 @@ margin-right:5%;
 margin-left: 5%;}
 .part9{text-align:center;
 color: white;
-background-color: black;}
+background-color: black;
+margin-right:5%;
+margin-left: 5%;}
 .part10{
 display: flex;
 justify-content: space-around;
 color: white;
 background-color: black;
+margin-right:5%;
+margin-left: 5%;
 }
 .read{font-weight: bold;
     text-align: end;
