@@ -33,6 +33,11 @@ button{background-color: orange;
 h5{font-weight: bold;}
 h4{font-weight: bold;}
 .part5{display: flex;
-    justify-content: space-around;
-    }
-.title{font-weight: bold;}
+justify-content: space-around;
+margin-right:5%;
+margin-left: 5%;}
+.part6{display: flex;
+justify-content: space-around;
+margin-right:5%;
+margin-left: 5%;}
+.see{margin-right: 5%;}
