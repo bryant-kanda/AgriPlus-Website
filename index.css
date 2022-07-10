@@ -13,7 +13,7 @@ button{background-color: orange;
     font-family: Poppins;}
 #log{float: right;}
 .part1{margin-left: 5%;
-    background-image: url("/Assets/image 1.png");
+    background-image: url(/Assets/image\ 1.png);
     display: flex;}
  .part2{display: flex;
     justify-content: space-around;
@@ -33,33 +33,38 @@ button{background-color: orange;
 h5{font-weight: bold;}
 h4{font-weight: bold;}
 .part5{display: flex;
-justify-content: space-around;
-margin-right:5%;
-margin-left: 5%;}
+    justify-content: space-around;
+    margin-right:5%;
+    margin-left: 5%;}
 .part6{display: flex;
-justify-content: space-around;
-margin-right:5%;
-margin-left: 5%;}
+    justify-content: space-around;
+    margin-right:5%;
+    margin-left: 5%;}
 .see{font-weight: bold;
-text-align: right;
-margin-right: 10%;}
+    text-align: right;
+    margin-right: 10%;}
 .part8{display: flex;
-justify-content: space-around;
-margin-right:5%;
-margin-left: 5%;}
+    justify-content: space-around;
+    margin-right:5%;
+    margin-left: 5%;}
 .part9{text-align:center;
-color: white;
-background-color: black;
-margin-right:5%;
-margin-left: 5%;}
+    color: white;
+    background-color: black;
+    border: solid;
+    padding: 10%;
+    margin-right:5%;
+    margin-left: 5%;}
 .part10{
-display: flex;
-justify-content: space-around;
-color: white;
-background-color: black;
-margin-right:5%;
-margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    border: solid;
+    padding: 10%;
+    margin-right:5%;
+    margin-left: 5%;
 }
 .read{font-weight: bold;
     text-align: end;
 }
+body{font-family: Poppins, Inter;}
