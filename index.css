@@ -13,18 +13,31 @@ button{background-color: orange;
     font-family: Poppins;}
 #log{float: right;}
 
-.part1{margin-left: 5%;
-        margin-right:5%;
-    background-image: url('Assets/image 1.png'), url('Assets/image 2.png');
+.part1{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    background-image: url('Assets/image 1.png');
     padding: 35px;
     background-position: right top, right top;
     background-repeat: no-repeat, repeat;
-    height: 300px;
     background-position: center;
-    background-repeat: no-repeat, repeat;
     background-size: cover;
-    position: relative;} 
+    position: relative;}
+    
+    .part1 > h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 20%;
+        margin-left: 15%;
 
+    }
+    .part1 > p{
+        font-size: 24px;
+        font-weight: 300;
+        padding-top: 18px;
+        margin-left: 15%;
+    }
  .part2{display: flex;
     justify-content: space-around;
     font-weight: bold;
@@ -58,9 +71,11 @@ h4{font-weight: bold;}
     color: white;
     background-color: black;
     border: solid;
-    padding: 10%;
+    padding-bottom: 50px;
     margin-right:5%;
-    margin-left: 5%;}
+    margin-left: 5%;
+}
+    
 .footer2{color: white;
     background-color: black;
     border: solid;
@@ -70,7 +85,8 @@ h4{font-weight: bold;}
 .read{font-weight: bold;
     margin-right: 10%;
 }
-body{font-style: Poppins, Inter;}
+body{font-style: Poppins, Inter;
+width: 100%;}
 
 .part11{margin-left: 5%;}
 #rights{text-align: center;}
@@ -118,11 +134,11 @@ font-weight: bold;}
 .part12{font-weight: bold;
 margin-left: 5%;}
 .back{float: left;}
-#tomato{float: right;
-display: flex;
-padding-bottom: 0px;
-margin-top: 0px;
-height: 100px;}
+#tomato{
+    margin-top: 20%;
+    margin-right: 20%;
+width: 600px;
+height: 450px;}
 .line{box-sizing: border-box;
     width: 40px;
 height: 3px;
