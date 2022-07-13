@@ -13,8 +13,17 @@ button{background-color: orange;
     font-family: Poppins;}
 #log{float: right;}
 .part1{margin-left: 5%;
-    background-image: url(/Assets/image\ 1.png);
-    display: flex;}
+        margin-right:5%;
+    background-image: url('Assets/image 1.png'), url('Assets/image 2.png');
+    padding: 35px;
+    background-position: right top, right top;
+    background-repeat: no-repeat, repeat;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    position: relative;}
+
  .part2{display: flex;
     justify-content: space-around;
     font-weight: bold;
@@ -22,11 +31,11 @@ button{background-color: orange;
     margin-right:15%;
     margin-left: 30%;
     border:groove;
-    border-color: white;
+    border-color: rgb(231, 228, 228);
     padding: 1%;
-    margin-top: -2%;
+    margin: top 0;
     }
-.part3{margin-left: 7%;
+.part3{margin-left: 5%;
     max-width: 60%;}
 #image3{float: right;}
 .part4{text-align:center;}
@@ -34,37 +43,87 @@ h5{font-weight: bold;}
 h4{font-weight: bold;}
 .part5{display: flex;
     justify-content: space-around;
-    margin-right:5%;
-    margin-left: 5%;}
+    margin-left: 0%;}
 .part6{display: flex;
     justify-content: space-around;
-    margin-right:5%;
-    margin-left: 5%;}
-.see{font-weight: bold;
+    margin-left: 0%;}
+#see{font-weight: bold;
     text-align: right;
     margin-right: 10%;}
 .part8{display: flex;
     justify-content: space-around;
-    margin-right:5%;
-    margin-left: 5%;}
-.part9{text-align:center;
+   }
+.footer1{text-align:center;
     color: white;
     background-color: black;
     border: solid;
     padding: 10%;
     margin-right:5%;
     margin-left: 5%;}
-.part10{
-    display: flex;
-    justify-content: space-around;
-    color: white;
+.footer2{color: white;
     background-color: black;
     border: solid;
     padding: 10%;
     margin-right:5%;
-    margin-left: 5%;
-}
+    margin-left: 5%;}
 .read{font-weight: bold;
-    text-align: end;
+    margin-right: 10%;
 }
-body{font-family: Poppins, Inter;}
+body{font-style: Poppins, Inter;}
+.part11{margin-left: 5%;}
+#rights{text-align: center;}
+.part16{float: right;
+        display: flex;}
+.part14{float: left;}
+.download{float: left;}
+h6{font-weight: bold;
+font-size: x-large;}
+#topic{text-align: left;
+font-size: x-large;
+font-weight: bold;
+margin-left: 5%;}
+#box1{box-sizing: border-box;
+height: 200px;
+width: 250px;
+padding: 10px;
+margin: 5px;
+margin-left:50px;
+background-color: white;
+border: 1px solid grey;}
+#box2{box-sizing: border-box;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    margin-left:50px;
+    background-color: white;
+    border: 1px solid grey;}
+#box3{box-sizing: border-box;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    margin-left:50px;
+    background-color: white;
+    border: 1px solid grey;}
+.part17{display: flex;
+justify-content: space-around;
+margin-left: 0%;}
+
+.part18{text-align: right;
+margin-right: 10%;
+font-weight: bold;}
+.part12{font-weight: bold;
+margin-left: 5%;}
+.back{float: left;}
+#tomato{float: right;
+display: flex;
+padding-bottom: 0px;
+margin-top: 0px;
+height: 100px;}
+.line{box-sizing: border-box;
+    width: 40px;
+height: 3px;
+background-color: orange;
+margin-left:  47%;}
+u{color: orange;}
