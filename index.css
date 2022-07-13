@@ -12,6 +12,7 @@ button{background-color: orange;
     font-weight: bold;
     font-family: Poppins;}
 #log{float: right;}
+
 .part1{margin-left: 5%;
         margin-right:5%;
     background-image: url('Assets/image 1.png'), url('Assets/image 2.png');
@@ -22,7 +23,7 @@ button{background-color: orange;
     background-position: center;
     background-repeat: no-repeat, repeat;
     background-size: cover;
-    position: relative;}
+    position: relative;} 
 
  .part2{display: flex;
     justify-content: space-around;
@@ -70,6 +71,7 @@ h4{font-weight: bold;}
     margin-right: 10%;
 }
 body{font-style: Poppins, Inter;}
+
 .part11{margin-left: 5%;}
 #rights{text-align: center;}
 .part16{float: right;
